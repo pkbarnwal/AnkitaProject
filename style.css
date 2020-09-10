@@ -1,0 +1,130 @@
+.logo h1{
+    color:black;
+    
+    margin:15px;
+}
+.logo a{
+    text-decoration:none;
+    position:relative;
+}
+.header_menu{
+    display:flex;
+    flex-direction:row;
+
+}
+.active{
+  color:sky;
+}
+.form-section{
+     position:absolute; 
+    top:3%;
+    left:5%;
+    max-width:900px;
+    width:80%;
+}
+
+form.searchbar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #ffff;
+    float: center;
+    width: 70%;
+    background: #f7f5f5;
+    border:1px solid black;
+   
+  }
+  form.searchbar button {
+    float: right;
+    position:absolute; 
+    top:0.5%; 
+    bottom:9%; 
+    height:100%;
+    width: 10%;
+    padding: 10px;
+    outline:none;
+    background: rgb(51, 20, 228);
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(32, 11, 151); 
+    border-left: none;
+    cursor: pointer;
+  }
+  form.searchbar button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.searchbar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   .RepairPhone{
+      background-color:rgb(51, 20, 228);
+      border-radius:5px;
+      color:#fff;
+      width:12%;
+      height:40px;
+      position:absolute;
+      right:20px;
+      top:2px;
+    }
+  .Register{
+      background:green;
+      color:#ffff;
+      width:12%;
+      height:40px;
+      position:absolute;
+      right:1px;
+      top:2px;
+      left:99%;
+      border-radius:5px;
+  } 
+  hr{
+    line-height:0.001px;
+  }
+  .navigation ul li{
+    display:inline;
+    float: right;
+    margin-right:35px;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color:black;
+  font-size:18px;
+}
+.navigation ul li a:active{
+  color:sky;
+}
+.sub-menu{
+  display:none;
+}
+.menu_list ul li:hover .sub-menu{
+  display:block;
+  position:absolute;
+  background-color:rgb(227, 233, 227);
+  
+  margin-left:-15px;
+}
+.menu_list ul li:hover .sub-menu ul{
+  display:block;
+  margin:10px;
+}
+.menu_list ul li:hover .sub-menu ul li{
+  width:120px;
+  padding:10px;
+  border-bottom: 1px dotted white;
+  background:transparent;
+  border-radius:0;
+  text-align:left;
+}
+.menu_list ul li:hover .sub-menu ul li:last-child{
+  border-bottom: none;
+  
+}
+.menu_list ul li:hover .sub-menu ul li a:hover{
+  color:#d1d4c8;
+}
+.fa-angle-right{
+float:right;
+}
